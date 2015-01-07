@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<launcher xml:lang="en-us" id="com.ea.origin" name="Origin" publisher="Electronic Arts" disabled="false">
+	<path type="default" name="mainDirectory"><![CDATA[%Programs-x86%\Origin]]></path>
+	<path type="default" name="mainExe"><![CDATA[%mainDirectory%\Origin.exe]]></path>
+	<path type="default" name="gameDirectory"><![CDATA[%Programs-x86%\Origin Games]]></path>
+
+	<argument type="start" standalone="false"><![CDATA[<none>]]></argument>
+	<argument type="shutdown" standalone="false"><![CDATA[<none>]]></argument>
+	<argument type="launchGame" standalone="true"><![CDATA[start origin://launchgame/%id%]]></argument>
+	<argument type="restoreBackup" standalone="false"><![CDATA[<none>]]></argument>
+
+	<backup method="manual" />
+</launcher>
