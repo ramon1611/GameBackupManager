@@ -1,3 +1,5 @@
 Thumbs.db
 *.vhost.exe
 *.vhost.exe.config
+*.vhost.exe.manifest
+*.vshost.exe.manifest
