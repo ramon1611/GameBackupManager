@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<launcher xml:lang="en-us" id="com.ea.origin" name="Origin" publisher="Electronic Arts" disabled="false">
+<launcher xml:lang="en-us" id="com.ea.origin" name="Origin" publisher="Electronic Arts">
 	<path type="default" name="mainDirectory"><![CDATA[%Programs-x86%\Origin]]></path>
 	<path type="default" name="mainExe"><![CDATA[%mainDirectory%\Origin.exe]]></path>
 	<path type="default" name="gameDirectory"><![CDATA[%Programs-x86%\Origin Games]]></path>

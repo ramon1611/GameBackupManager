@@ -117,94 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;EditLauncherButton.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;EnableGmaeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LauncherColumnHeader.Text" xml:space="preserve">
+    <value>Launcher</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LauncherColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="MainDirectoryColumnHeader.Text" xml:space="preserve">
+    <value>Main Directory</value>
+  </data>
   <data name="MainDirectoryColumnHeader.Width" type="System.Int32, mscorlib">
     <value>334</value>
   </data>
-  <data name="&gt;&gt;DetectedGamesLabel.Name" xml:space="preserve">
-    <value>DetectedGamesLabel</value>
-  </data>
-  <data name="&gt;&gt;GameDirectoryColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RemoveLauncherButton.Name" xml:space="preserve">
-    <value>RemoveLauncherButton</value>
-  </data>
-  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;RemoveGameButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;EditGameButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
-    <value>ExitButton</value>
-  </data>
-  <data name="&gt;&gt;LauncherColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GameUserDataDirectoryColumnHeader.Text" xml:space="preserve">
-    <value>User Data Directory</value>
-  </data>
-  <data name="&gt;&gt;EnableLauncherButton.Name" xml:space="preserve">
-    <value>EnableLauncherButton</value>
-  </data>
-  <data name="&gt;&gt;LaunchersListView.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="RemoveLauncherButton.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="&gt;&gt;LaunchersListView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DetectedLaunchersLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;MainDirectoryColumnHeader.Name" xml:space="preserve">
-    <value>MainDirectoryColumnHeader</value>
-  </data>
-  <data name="&gt;&gt;RemoveGameButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;AddLauncherButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DisableLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;AddGameButton.Name" xml:space="preserve">
-    <value>AddGameButton</value>
-  </data>
-  <data name="&gt;&gt;RemoveGameButton.Name" xml:space="preserve">
-    <value>RemoveGameButton</value>
-  </data>
-  <data name="&gt;&gt;DetectedColumnHeader.Name" xml:space="preserve">
-    <value>DetectedColumnHeader</value>
-  </data>
-  <data name="&gt;&gt;GameMainDirectoryColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>GameBackupManager</value>
+  <data name="GameDirectoryColumnHeader.Text" xml:space="preserve">
+    <value>Game Directory</value>
   </data>
   <data name="GameDirectoryColumnHeader.Width" type="System.Int32, mscorlib">
     <value>334</value>
@@ -212,449 +139,489 @@
   <data name="DetectedColumnHeader.Text" xml:space="preserve">
     <value>Detected</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
+  <data name="DetectedColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="LaunchersListView.LabelWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LaunchersListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="LaunchersListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>846, 114</value>
+  </data>
+  <data name="LaunchersListView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LaunchersListView.Name" xml:space="preserve">
+    <value>LaunchersListView</value>
+  </data>
+  <data name="&gt;&gt;LaunchersListView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LaunchersListView.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;GameNameColumnHeader.Name" xml:space="preserve">
-    <value>GameNameColumnHeader</value>
+  <data name="&gt;&gt;LaunchersListView.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="RemoveGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 294</value>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>783, 442</value>
+  </data>
+  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
+    <value>ExitButton</value>
+  </data>
+  <data name="&gt;&gt;ExitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ExitButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 442</value>
+  </data>
+  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SettingsButton.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
+    <value>SettingsButton</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GameNameColumnHeader.Text" xml:space="preserve">
+    <value>Game</value>
+  </data>
   <data name="GameNameColumnHeader.Width" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;EnableLauncherButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="EditLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="DisbaleGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 294</value>
-  </data>
-  <data name="RemoveLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;ExitButton.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="GameMainDirectoryColumnHeader.Text" xml:space="preserve">
+    <value>Main Directory</value>
   </data>
   <data name="GameMainDirectoryColumnHeader.Width" type="System.Int32, mscorlib">
     <value>334</value>
   </data>
-  <data name="DetectedGamesLabel.Text" xml:space="preserve">
-    <value>Detected Games (0):</value>
+  <data name="GameUserDataDirectoryColumnHeader.Text" xml:space="preserve">
+    <value>User Data Directory</value>
   </data>
-  <data name="DisbaleGameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="GameUserDataDirectoryColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>334</value>
   </data>
-  <data name="MainDirectoryColumnHeader.Text" xml:space="preserve">
-    <value>Main Directory</value>
+  <data name="GameTypeColumnHeader.Text" xml:space="preserve">
+    <value>Type</value>
   </data>
-  <data name="&gt;&gt;AddGameButton.Parent" xml:space="preserve">
+  <data name="GameTypeColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="ListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 174</value>
+  </data>
+  <data name="ListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>846, 114</value>
+  </data>
+  <data name="ListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Name" xml:space="preserve">
+    <value>ListView1</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListView1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="EnableLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>783, 145</value>
-  </data>
-  <data name="&gt;&gt;BindingSource1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ListView1.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="EnableGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 358</value>
+  <data name="DetectedGamesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DetectedGamesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 158</value>
+  </data>
+  <data name="DetectedGamesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="DetectedGamesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="DetectedGamesLabel.Text" xml:space="preserve">
+    <value>Detected Games (0):</value>
+  </data>
+  <data name="&gt;&gt;DetectedGamesLabel.Name" xml:space="preserve">
+    <value>DetectedGamesLabel</value>
+  </data>
+  <data name="&gt;&gt;DetectedGamesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DetectedGamesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DetectedGamesLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="AddLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>459, 145</value>
   </data>
-  <data name="EditGameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="AddLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="EnableGameButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="AddLauncherButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="AddLauncherButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;AddLauncherButton.Name" xml:space="preserve">
+    <value>AddLauncherButton</value>
+  </data>
+  <data name="&gt;&gt;AddLauncherButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddLauncherButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddLauncherButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="EditLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 145</value>
+  </data>
+  <data name="EditLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
   <data name="EditLauncherButton.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;ListView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ListView1.Name" xml:space="preserve">
-    <value>ListView1</value>
-  </data>
-  <data name="&gt;&gt;DetectedLaunchersLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DisbaleGameButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DetectedLaunchersLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="EnableGmaeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;EditLauncherButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DisableLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 145</value>
-  </data>
-  <data name="DisbaleGameButton.Text" xml:space="preserve">
-    <value>Disbale</value>
-  </data>
-  <data name="&gt;&gt;MainDirectoryColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ExitButton.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="EditGameButton.Text" xml:space="preserve">
+  <data name="EditLauncherButton.Text" xml:space="preserve">
     <value>Edit</value>
-  </data>
-  <data name="GameNameColumnHeader.Text" xml:space="preserve">
-    <value>Game</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainWindow</value>
   </data>
   <data name="&gt;&gt;EditLauncherButton.Name" xml:space="preserve">
     <value>EditLauncherButton</value>
   </data>
-  <data name="&gt;&gt;LaunchersListView.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="DisableLauncherButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;EnableLauncherButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;EditLauncherButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="EditGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 294</value>
+  <data name="&gt;&gt;EditLauncherButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;GameUserDataDirectoryColumnHeader.Name" xml:space="preserve">
-    <value>GameUserDataDirectoryColumnHeader</value>
+  <data name="&gt;&gt;EditLauncherButton.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="DetectedLaunchersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+  <data name="RemoveLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 145</value>
   </data>
-  <data name="ListView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 174</value>
-  </data>
-  <data name="EnableGmaeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="GameTypeColumnHeader.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="&gt;&gt;GameTypeColumnHeader.Name" xml:space="preserve">
-    <value>GameTypeColumnHeader</value>
-  </data>
-  <data name="&gt;&gt;EnableGmaeButton.Name" xml:space="preserve">
-    <value>EnableGmaeButton</value>
-  </data>
-  <data name="AddGameButton.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="DetectedGamesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 158</value>
-  </data>
-  <data name="AddGameButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="RemoveLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;DisableLauncherButton.Name" xml:space="preserve">
-    <value>DisableLauncherButton</value>
-  </data>
-  <data name="&gt;&gt;GameUserDataDirectoryColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LaunchersListView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 25</value>
-  </data>
-  <data name="LaunchersListView.LabelWrap" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;EnableGameButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;EditGameButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="AddLauncherButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="LaunchersListView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;EnableGameButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>783, 442</value>
-  </data>
-  <data name="&gt;&gt;DetectedColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DetectedGamesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 13</value>
-  </data>
-  <data name="DetectedColumnHeader.Width" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="&gt;&gt;DisableLauncherButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GameDirectoryColumnHeader.Text" xml:space="preserve">
-    <value>Game Directory</value>
-  </data>
-  <data name="EnableGmaeButton.Text" xml:space="preserve">
-    <value>Enable</value>
-  </data>
-  <data name="&gt;&gt;DisableLauncherButton.ZOrder" xml:space="preserve">
+  <data name="RemoveLauncherButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="EnableGmaeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>783, 294</value>
+  <data name="RemoveLauncherButton.Text" xml:space="preserve">
+    <value>Remove</value>
   </data>
-  <data name="EditGameButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;RemoveLauncherButton.Name" xml:space="preserve">
+    <value>RemoveLauncherButton</value>
   </data>
-  <data name="&gt;&gt;GameMainDirectoryColumnHeader.Name" xml:space="preserve">
-    <value>GameMainDirectoryColumnHeader</value>
+  <data name="&gt;&gt;RemoveLauncherButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;EnableGmaeButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;RemoveLauncherButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;RemoveLauncherButton.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="EnableGameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="DisableLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 145</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
-    <value>SettingsButton</value>
+  <data name="DisableLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 442</value>
+  <data name="DisableLauncherButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;RemoveGameButton.Parent" xml:space="preserve">
+  <data name="DisableLauncherButton.Text" xml:space="preserve">
+    <value>Disbale</value>
+  </data>
+  <data name="&gt;&gt;DisableLauncherButton.Name" xml:space="preserve">
+    <value>DisableLauncherButton</value>
+  </data>
+  <data name="&gt;&gt;DisableLauncherButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DisableLauncherButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="ListView1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;DisableLauncherButton.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;GameNameColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="EnableLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>783, 145</value>
   </data>
-  <data name="RemoveGameButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="EnableLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="EnableLauncherButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="EnableLauncherButton.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="&gt;&gt;EnableLauncherButton.Name" xml:space="preserve">
+    <value>EnableLauncherButton</value>
+  </data>
+  <data name="&gt;&gt;EnableLauncherButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableLauncherButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EnableLauncherButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AddGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 294</value>
+  </data>
+  <data name="AddGameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AddGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="AddGameButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;AddGameButton.Name" xml:space="preserve">
+    <value>AddGameButton</value>
+  </data>
+  <data name="&gt;&gt;AddGameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddGameButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;AddGameButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;DisbaleGameButton.Name" xml:space="preserve">
-    <value>DisbaleGameButton</value>
+  <data name="EditGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 294</value>
   </data>
-  <data name="&gt;&gt;DetectedLaunchersLabel.Name" xml:space="preserve">
-    <value>DetectedLaunchersLabel</value>
+  <data name="EditGameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;EnableGameButton.Type" xml:space="preserve">
+  <data name="EditGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="EditGameButton.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;EditGameButton.Name" xml:space="preserve">
+    <value>EditGameButton</value>
+  </data>
+  <data name="&gt;&gt;EditGameButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="DetectedLaunchersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
+  <data name="&gt;&gt;EditGameButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EditGameButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RemoveGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 294</value>
+  </data>
+  <data name="RemoveGameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RemoveGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="RemoveGameButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;RemoveGameButton.Name" xml:space="preserve">
+    <value>RemoveGameButton</value>
+  </data>
+  <data name="&gt;&gt;RemoveGameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RemoveGameButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RemoveGameButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DisbaleGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 294</value>
   </data>
   <data name="DisbaleGameButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="DisbaleGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="&gt;&gt;DetectedGamesLabel.Parent" xml:space="preserve">
+  <data name="DisbaleGameButton.Text" xml:space="preserve">
+    <value>Disbale</value>
+  </data>
+  <data name="&gt;&gt;DisbaleGameButton.Name" xml:space="preserve">
+    <value>DisbaleGameButton</value>
+  </data>
+  <data name="&gt;&gt;DisbaleGameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DisbaleGameButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DisbaleGameButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="EnableGameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>783, 294</value>
   </data>
-  <data name="GameTypeColumnHeader.Width" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="RemoveLauncherButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="EnableLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="EnableGameButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="RemoveGameButton.Text" xml:space="preserve">
-    <value>Remove</value>
+  <data name="EnableGameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="SettingsButton.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="RemoveGameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="DetectedLaunchersLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;EditLauncherButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="AddLauncherButton.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="&gt;&gt;AddLauncherButton.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="LauncherColumnHeader.Width" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="DetectedLaunchersLabel.Text" xml:space="preserve">
-    <value>Detected Launchers (0):</value>
-  </data>
-  <data name="&gt;&gt;DisableLauncherButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GameDirectoryColumnHeader.Name" xml:space="preserve">
-    <value>GameDirectoryColumnHeader</value>
-  </data>
-  <data name="&gt;&gt;AddLauncherButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="DetectedGamesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ListView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>846, 114</value>
-  </data>
-  <data name="EnableLauncherButton.Text" xml:space="preserve">
+  <data name="EnableGameButton.Text" xml:space="preserve">
     <value>Enable</value>
-  </data>
-  <data name="&gt;&gt;LaunchersListView.Name" xml:space="preserve">
-    <value>LaunchersListView</value>
-  </data>
-  <data name="LaunchersListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>846, 114</value>
-  </data>
-  <data name="AddGameButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 294</value>
-  </data>
-  <data name="AddLauncherButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;DetectedGamesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GameUserDataDirectoryColumnHeader.Width" type="System.Int32, mscorlib">
-    <value>334</value>
   </data>
   <data name="&gt;&gt;EnableGameButton.Name" xml:space="preserve">
     <value>EnableGameButton</value>
   </data>
-  <data name="&gt;&gt;RemoveLauncherButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;EnableGameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableGameButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;GameTypeColumnHeader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;EnableGameButton.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="LauncherColumnHeader.Text" xml:space="preserve">
-    <value>Launcher</value>
+  <data name="DetectedLaunchersLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="EnableLauncherButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="DetectedLaunchersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>870, 477</value>
+  <data name="DetectedLaunchersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
   </data>
-  <data name="&gt;&gt;RemoveLauncherButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="DetectedLaunchersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="RemoveLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 145</value>
+  <data name="DetectedLaunchersLabel.Text" xml:space="preserve">
+    <value>Detected Launchers (0):</value>
   </data>
-  <data name="EditLauncherButton.Text" xml:space="preserve">
-    <value>Edit</value>
+  <data name="&gt;&gt;DetectedLaunchersLabel.Name" xml:space="preserve">
+    <value>DetectedLaunchersLabel</value>
   </data>
-  <data name="GameMainDirectoryColumnHeader.Text" xml:space="preserve">
-    <value>Main Directory</value>
+  <data name="&gt;&gt;DetectedLaunchersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BindingSource1.Name" xml:space="preserve">
-    <value>BindingSource1</value>
-  </data>
-  <data name="&gt;&gt;DisbaleGameButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EditGameButton.Name" xml:space="preserve">
-    <value>EditGameButton</value>
-  </data>
-  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="DisableLauncherButton.Text" xml:space="preserve">
-    <value>Disbale</value>
-  </data>
-  <data name="&gt;&gt;AddGameButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddLauncherButton.Name" xml:space="preserve">
-    <value>AddLauncherButton</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DetectedGamesLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="EditLauncherButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 145</value>
-  </data>
-  <data name="AddGameButton.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="&gt;&gt;DetectedLaunchersLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;DetectedLaunchersLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;EditGameButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>870, 477</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GameBackupManager</value>
   </data>
   <data name="&gt;&gt;LauncherColumnHeader.Name" xml:space="preserve">
     <value>LauncherColumnHeader</value>
   </data>
-  <data name="&gt;&gt;EnableLauncherButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;LauncherColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="DetectedGamesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;MainDirectoryColumnHeader.Name" xml:space="preserve">
+    <value>MainDirectoryColumnHeader</value>
   </data>
-  <data name="&gt;&gt;EnableGmaeButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;MainDirectoryColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
+  <data name="&gt;&gt;GameDirectoryColumnHeader.Name" xml:space="preserve">
+    <value>GameDirectoryColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;GameDirectoryColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DetectedColumnHeader.Name" xml:space="preserve">
+    <value>DetectedColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;DetectedColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameNameColumnHeader.Name" xml:space="preserve">
+    <value>GameNameColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;GameNameColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameMainDirectoryColumnHeader.Name" xml:space="preserve">
+    <value>GameMainDirectoryColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;GameMainDirectoryColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameUserDataDirectoryColumnHeader.Name" xml:space="preserve">
+    <value>GameUserDataDirectoryColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;GameUserDataDirectoryColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameTypeColumnHeader.Name" xml:space="preserve">
+    <value>GameTypeColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;GameTypeColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

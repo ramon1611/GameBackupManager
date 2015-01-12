@@ -8,5 +8,11 @@
     <Setting Name="defaultLanguage" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">1033</Value>
     </Setting>
+    <Setting Name="disabledLaunchers" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="disabledGames" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

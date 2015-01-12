@@ -5,6 +5,17 @@ Public Class Settings
 	Dim locRM As New ResourceManager("GameBackupManager.Strings", GetType(MainWindow).Assembly)
 	Dim availableLanguages As New List(Of Integer)
 
+	Sub New()
+		Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(My.Settings.defaultLanguage)
+		Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(My.Settings.defaultLanguage)
+
+		' Dieser Aufruf ist für den Designer erforderlich.
+		InitializeComponent()
+
+		' Fügen Sie Initialisierungen nach dem InitializeComponent()-Aufruf hinzu.
+
+	End Sub
+
 	Private Sub Settings_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 		availableLanguages.Add(1031)
 		availableLanguages.Add(1033)

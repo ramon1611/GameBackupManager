@@ -5,27 +5,27 @@
 			Manual = 1
 		End Enum
 
-		Property ID As String
-		Property Name As String
-		Property Publisher As String
-		Property Disabled As Boolean
-		Property Detected As Boolean
-		Property Backup As BackupMethod
+		Property ID As String = String.Empty
+		Property Name As String = String.Empty
+		Property Publisher As String = String.Empty
+		Property Disabled As Boolean = False
+		Property Detected As Boolean = False
+		Property Backup As BackupMethod = Nothing
 
-		Property MainDirectory As String
-		Property MainExecutable As String
-		Property GameDirectory As String
-		Property AdditionalPaths As Dictionary(Of String, String)
+		Property MainDirectory As String = String.Empty
+		Property MainExecutable As String = String.Empty
+		Property GameDirectory As String = String.Empty
+		Property AdditionalPaths As New Dictionary(Of String, String)
 
-		Property StartArgument As String
-		Property ShutdownArgument As String
-		Property LaunchGameArgument As String
-		Property RestoreBackupArgument As String
+		Property StartArgument As String = String.Empty
+		Property ShutdownArgument As String = String.Empty
+		Property LaunchGameArgument As String = String.Empty
+		Property RestoreBackupArgument As String = String.Empty
 
-		Property StartIsStandalone As Boolean
-		Property ShutdownIsStandalone As Boolean
-		Property LaunchGameIsStandalone As Boolean
-		Property RestoreBackupIsStandalone As Boolean
+		Property StartIsStandalone As Boolean = False
+		Property ShutdownIsStandalone As Boolean = False
+		Property LaunchGameIsStandalone As Boolean = False
+		Property RestoreBackupIsStandalone As Boolean = False
 
 		Sub New()
 			ClearData()
@@ -35,8 +35,9 @@
 			ID = String.Empty
 			Name = String.Empty
 			Publisher = String.Empty
-			Disabled = Nothing
-			Detected = Nothing
+			Disabled = False
+			Detected = False
+			Backup = Nothing
 
 			MainDirectory = String.Empty
 			MainExecutable = String.Empty
@@ -48,10 +49,10 @@
 			LaunchGameArgument = String.Empty
 			RestoreBackupArgument = String.Empty
 
-			StartIsStandalone = Nothing
-			ShutdownIsStandalone = Nothing
-			LaunchGameIsStandalone = Nothing
-			RestoreBackupIsStandalone = Nothing
+			StartIsStandalone = False
+			ShutdownIsStandalone = False
+			LaunchGameIsStandalone = False
+			RestoreBackupIsStandalone = False
 		End Sub
 	End Class
 End Namespace

@@ -77,6 +77,28 @@ Namespace My
                 Me("defaultLanguage") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Property disabledLaunchers() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("disabledLaunchers"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("disabledLaunchers") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Property disabledGames() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("disabledGames"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("disabledGames") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

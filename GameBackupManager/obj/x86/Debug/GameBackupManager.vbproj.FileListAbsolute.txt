@@ -21,3 +21,6 @@ C:\Users\ramon1611\Documents\Visual Studio 2010\Projects\GameBackupManager\GameB
 C:\Users\ramon1611\Documents\Visual Studio 2010\Projects\GameBackupManager\GameBackupManager\obj\x86\Debug\GameBackupManager.Settings.resources
 C:\Users\ramon1611\Documents\Visual Studio 2010\Projects\GameBackupManager\GameBackupManager\obj\x86\Debug\GameBackupManager.MainWindow.de-DE.resources
 C:\Users\ramon1611\Documents\Visual Studio 2010\Projects\GameBackupManager\GameBackupManager\obj\x86\Debug\GameBackupManager.Settings.de-DE.resources
+C:\Users\ramon1611\documents\visual studio 2010\Projects\GameBackupManager\GameBackupManager\bin\Debug\en\GameBackupManager.resources.dll
+C:\Users\ramon1611\documents\visual studio 2010\Projects\GameBackupManager\GameBackupManager\obj\x86\Debug\GameBackupManager.MainWindow.en.resources
+C:\Users\ramon1611\documents\visual studio 2010\Projects\GameBackupManager\GameBackupManager\obj\x86\Debug\en\GameBackupManager.resources.dll

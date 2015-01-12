@@ -51,10 +51,10 @@ Partial Class MainWindow
 		'
 		'LaunchersListView
 		'
-		resources.ApplyResources(Me.LaunchersListView, "LaunchersListView")
 		Me.LaunchersListView.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.LauncherColumnHeader, Me.MainDirectoryColumnHeader, Me.GameDirectoryColumnHeader, Me.DetectedColumnHeader})
 		Me.LaunchersListView.FullRowSelect = True
 		Me.LaunchersListView.LabelEdit = True
+		resources.ApplyResources(Me.LaunchersListView, "LaunchersListView")
 		Me.LaunchersListView.MultiSelect = False
 		Me.LaunchersListView.Name = "LaunchersListView"
 		Me.LaunchersListView.UseCompatibleStateImageBehavior = False
@@ -90,8 +90,8 @@ Partial Class MainWindow
 		'
 		'ListView1
 		'
-		resources.ApplyResources(Me.ListView1, "ListView1")
 		Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.GameNameColumnHeader, Me.GameMainDirectoryColumnHeader, Me.GameUserDataDirectoryColumnHeader, Me.GameTypeColumnHeader})
+		resources.ApplyResources(Me.ListView1, "ListView1")
 		Me.ListView1.Name = "ListView1"
 		Me.ListView1.UseCompatibleStateImageBehavior = False
 		Me.ListView1.View = System.Windows.Forms.View.Details

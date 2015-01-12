@@ -18,9 +18,21 @@ Public Class MainWindow
 	End Sub
 
 	Private Sub MainWindow_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+		Initialize()
+
 		GetLaunchersXml()
 		ParseLauncherContents()
 		DetectLaunchers()
+	End Sub
+
+	Public Sub Initialize()
+		If My.Settings.disabledLaunchers Is Nothing Then
+			My.Settings.disabledLaunchers = New System.Collections.Specialized.StringCollection
+		End If
+
+		If My.Settings.disabledGames Is Nothing Then
+			My.Settings.disabledGames = New System.Collections.Specialized.StringCollection
+		End If
 	End Sub
 
 	Public Sub GetLaunchersXml()
@@ -36,92 +48,97 @@ Public Class MainWindow
 							newLauncher.ID = reader.GetAttribute("id", reader.NamespaceURI)
 							newLauncher.Name = reader.GetAttribute("name", reader.NamespaceURI)
 							newLauncher.Publisher = reader.GetAttribute("publisher", reader.NamespaceURI)
-							newLauncher.Disabled = CBool(reader.GetAttribute("disabled", reader.NamespaceURI))
+
+							For Each disabledLauncher As String In My.Settings.disabledLaunchers
+								If disabledLauncher = newLauncher.ID Then
+									newLauncher.Disabled = True
+								End If
+							Next
 						End If
 					Case "path"
-						If reader.HasAttributes Then
-							Select Case reader.GetAttribute("type", reader.NamespaceURI)
-								Case "default"
-									If reader.HasAttributes Then
-										Select Case reader.GetAttribute("name", reader.NamespaceURI)
-											Case "mainDirectory"
-												newLauncher.MainDirectory = reader.ReadElementContentAsString
-											Case "mainExe"
-												newLauncher.MainExecutable = reader.ReadElementContentAsString
-											Case "gameDirectory"
-												newLauncher.GameDirectory = reader.ReadElementContentAsString
-											Case Else
-										End Select
-									End If
-								Case "additional"
-									If reader.HasAttributes Then
-										newLauncher.AdditionalPaths.Add(reader.GetAttribute("name", reader.NamespaceURI), reader.ReadElementContentAsString)
-									End If
-								Case Else
-							End Select
-						End If
+							If reader.HasAttributes Then
+								Select Case reader.GetAttribute("type", reader.NamespaceURI)
+									Case "default"
+										If reader.HasAttributes Then
+											Select Case reader.GetAttribute("name", reader.NamespaceURI)
+												Case "mainDirectory"
+													newLauncher.MainDirectory = reader.ReadElementContentAsString
+												Case "mainExe"
+													newLauncher.MainExecutable = reader.ReadElementContentAsString
+												Case "gameDirectory"
+													newLauncher.GameDirectory = reader.ReadElementContentAsString
+												Case Else
+											End Select
+										End If
+									Case "additional"
+										If reader.HasAttributes Then
+											newLauncher.AdditionalPaths.Add(reader.GetAttribute("name", reader.NamespaceURI), reader.ReadElementContentAsString)
+										End If
+									Case Else
+								End Select
+							End If
 					Case "argument"
-						If reader.HasAttributes Then
-							Select Case reader.GetAttribute("type", reader.NamespaceURI)
-								Case "start"
-									If reader.HasAttributes Then
-										Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
-											Case "true", "false"
-												newLauncher.StartIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
-											Case Else
-												newLauncher.StartIsStandalone = False
-										End Select
-									End If
+							If reader.HasAttributes Then
+								Select Case reader.GetAttribute("type", reader.NamespaceURI)
+									Case "start"
+										If reader.HasAttributes Then
+											Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
+												Case "true", "false"
+													newLauncher.StartIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
+												Case Else
+													newLauncher.StartIsStandalone = False
+											End Select
+										End If
 
-									newLauncher.StartArgument = reader.ReadElementContentAsString
-								Case "shutdown"
-									If reader.HasAttributes Then
-										Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
-											Case "true", "false"
-												newLauncher.ShutdownIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
-											Case Else
-												newLauncher.ShutdownIsStandalone = False
-										End Select
-									End If
+										newLauncher.StartArgument = reader.ReadElementContentAsString
+									Case "shutdown"
+										If reader.HasAttributes Then
+											Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
+												Case "true", "false"
+													newLauncher.ShutdownIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
+												Case Else
+													newLauncher.ShutdownIsStandalone = False
+											End Select
+										End If
 
-									newLauncher.ShutdownArgument = reader.ReadElementContentAsString
-								Case "launchGame"
-									If reader.HasAttributes Then
-										Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
-											Case "true", "false"
-												newLauncher.LaunchGameIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
-											Case Else
-												newLauncher.LaunchGameIsStandalone = False
-										End Select
-									End If
+										newLauncher.ShutdownArgument = reader.ReadElementContentAsString
+									Case "launchGame"
+										If reader.HasAttributes Then
+											Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
+												Case "true", "false"
+													newLauncher.LaunchGameIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
+												Case Else
+													newLauncher.LaunchGameIsStandalone = False
+											End Select
+										End If
 
-									newLauncher.LaunchGameArgument = reader.ReadElementContentAsString
-								Case "restoreBackup"
-									If reader.HasAttributes Then
-										Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
-											Case "true", "false"
-												newLauncher.RestoreBackupIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
-											Case Else
-												newLauncher.RestoreBackupIsStandalone = False
-										End Select
-									End If
+										newLauncher.LaunchGameArgument = reader.ReadElementContentAsString
+									Case "restoreBackup"
+										If reader.HasAttributes Then
+											Select Case reader.GetAttribute("standalone", reader.NamespaceURI)
+												Case "true", "false"
+													newLauncher.RestoreBackupIsStandalone = CBool(reader.GetAttribute("standalone", reader.NamespaceURI))
+												Case Else
+													newLauncher.RestoreBackupIsStandalone = False
+											End Select
+										End If
 
-									newLauncher.RestoreBackupArgument = reader.ReadElementContentAsString
-								Case Else
-							End Select
-						End If
+										newLauncher.RestoreBackupArgument = reader.ReadElementContentAsString
+									Case Else
+								End Select
+							End If
 
 					Case "backup"
-						If reader.HasAttributes Then
-							Select Case reader.GetAttribute("method", reader.NamespaceURI)
-								Case "integrated"
-									newLauncher.Backup = Launcher.BackupMethod.Integrated
-								Case "manual"
-									newLauncher.Backup = Launcher.BackupMethod.Manual
-								Case Else
-									newLauncher.Backup = Launcher.BackupMethod.Manual
-							End Select
-						End If
+							If reader.HasAttributes Then
+								Select Case reader.GetAttribute("method", reader.NamespaceURI)
+									Case "integrated"
+										newLauncher.Backup = Launcher.BackupMethod.Integrated
+									Case "manual"
+										newLauncher.Backup = Launcher.BackupMethod.Manual
+									Case Else
+										newLauncher.Backup = Launcher.BackupMethod.Manual
+								End Select
+							End If
 					Case Else
 				End Select
 			Loop

@@ -151,6 +151,12 @@
   <data name="GameTypeColumnHeader.Text" xml:space="preserve">
     <value>Typ</value>
   </data>
+  <data name="DetectedGamesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="DetectedGamesLabel.Text" xml:space="preserve">
+    <value>Gefundene Spiele (0):</value>
+  </data>
   <data name="AddLauncherButton.Text" xml:space="preserve">
     <value>Hinzufügen</value>
   </data>

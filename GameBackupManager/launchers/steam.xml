@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<launcher xml:lang="en-us" id="com.steampowered.steam" name="Steam" publisher="Valve" disabled="false">
+<launcher xml:lang="en-us" id="com.steampowered.steam" name="Steam" publisher="Valve">
 	<path type="default" name="mainDirectory"><![CDATA[%Programs-x86%\Steam]]></path>
 	<path type="default" name="mainExe"><![CDATA[%mainDirectory%\Steam.exe]]></path>
 	<path type="default" name="gameDirectory"><![CDATA[%mainDirectory%\steamapps\common]]></path>
